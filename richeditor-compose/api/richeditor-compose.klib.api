@@ -1,5 +1,6 @@
 // Klib ABI Dump
 // Targets: [iosArm64, iosSimulatorArm64, iosX64, js, wasmJs]
+// Alias: ios => [iosArm64, iosSimulatorArm64, iosX64]
 // Rendering settings:
 // - Signature version: 2
 // - Show manifest properties: true
@@ -255,6 +256,10 @@ final class com.mohamedrejeb.richeditor.model/RichTextState { // com.mohamedreje
     final fun getRichSpanStyle(androidx.compose.ui.text/TextRange): com.mohamedrejeb.richeditor.model/RichSpanStyle // com.mohamedrejeb.richeditor.model/RichTextState.getRichSpanStyle|getRichSpanStyle(androidx.compose.ui.text.TextRange){}[0]
     final fun getSpanStyle(androidx.compose.ui.text/TextRange): androidx.compose.ui.text/SpanStyle // com.mohamedrejeb.richeditor.model/RichTextState.getSpanStyle|getSpanStyle(androidx.compose.ui.text.TextRange){}[0]
     final fun increaseListLevel() // com.mohamedrejeb.richeditor.model/RichTextState.increaseListLevel|increaseListLevel(){}[0]
+    final fun insertHtml(kotlin/String, kotlin/Int) // com.mohamedrejeb.richeditor.model/RichTextState.insertHtml|insertHtml(kotlin.String;kotlin.Int){}[0]
+    final fun insertHtmlAfterSelection(kotlin/String) // com.mohamedrejeb.richeditor.model/RichTextState.insertHtmlAfterSelection|insertHtmlAfterSelection(kotlin.String){}[0]
+    final fun insertMarkdown(kotlin/String, kotlin/Int) // com.mohamedrejeb.richeditor.model/RichTextState.insertMarkdown|insertMarkdown(kotlin.String;kotlin.Int){}[0]
+    final fun insertMarkdownAfterSelection(kotlin/String) // com.mohamedrejeb.richeditor.model/RichTextState.insertMarkdownAfterSelection|insertMarkdownAfterSelection(kotlin.String){}[0]
     final fun isRichSpan(com.mohamedrejeb.richeditor.model/RichSpanStyle): kotlin/Boolean // com.mohamedrejeb.richeditor.model/RichTextState.isRichSpan|isRichSpan(com.mohamedrejeb.richeditor.model.RichSpanStyle){}[0]
     final fun isRichSpan(kotlin.reflect/KClass<out com.mohamedrejeb.richeditor.model/RichSpanStyle>): kotlin/Boolean // com.mohamedrejeb.richeditor.model/RichTextState.isRichSpan|isRichSpan(kotlin.reflect.KClass<out|com.mohamedrejeb.richeditor.model.RichSpanStyle>){}[0]
     final fun removeCode() // com.mohamedrejeb.richeditor.model/RichTextState.removeCode|removeCode(){}[0]
